@@ -1,0 +1,6 @@
+Composite: When I sign up as a new user
+When I click on element located `By.xpath(//button[contains(text(),'Sign up - it’s free')])`
+When I click on element located `By.xpath(//span[contains(text(),'Sign up')])`
+When I wait until element located `By.xpath(//button[contains(text(),'Continue')])` appears
+When I click on element located `By.xpath(//button[contains(text(),'Continue')])`
+When I click on element located `By.xpath(//button[contains(text(),'Take me to Trello')])`
