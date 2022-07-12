@@ -4,7 +4,7 @@ Given I am on the main application page
 When I initialize the STORY variable `testUserEmail` with value `#{generate(Name.firstName)}`
 When I initialize the STORY variable `testUserEmail` with value `#{toUpperCase(${testUserEmail})}`
 When I initialize the STORY variable `testUserPass` with value `#{generate(regexify '[a-z]{4}[A-Z]{4}')}`
-When I enter `${testUserEmail}@yopmail.com` in field located `By.xpath(//body/div[@id='BXP-APP']/main[@id='skip-target']/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/input[1])`
+When I enter `${testUserEmail}@yopmail.com` in field located `By.cssSelector(.HlPFP > .UiEmailSignupstyles__InputEmail-sc-9nggyw-1)`
 When I click on element located `By.xpath(//button[contains(text(),'Sign up - it’s free')])`
 When I COMPARE_AGAINST baseline with name `signup` ignoring:
 |ELEMENT                  	|

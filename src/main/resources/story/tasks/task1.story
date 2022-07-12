@@ -7,8 +7,8 @@ Examples:
 
 Scenario: Sign Up
 Given I am on the main application page
-When I enter `<testUserEmail>` in field located `By.xpath(//body/div[@id='BXP-APP']/main[@id='skip-target']/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/input[1])`
-When I add `@mailinator.com` to field located `By.xpath(//body/div[@id='BXP-APP']/main[@id='skip-target']/section[1]/div[1]/div[1]/div[2]/div[1]/div[1]/form[1]/input[1])`
+When I enter `<testUserEmail>` in field located `By.cssSelector(.HlPFP > .UiEmailSignupstyles__InputEmail-sc-9nggyw-1)`
+When I add `@mailinator.com` to field located `By.cssSelector(.HlPFP > .UiEmailSignupstyles__InputEmail-sc-9nggyw-1)`
 When I click on element located `By.xpath(//button[contains(text(),'Sign up - it’s free')])`
 When I click on element located `By.xpath(//span[contains(text(),'Sign up')])`
 When I wait until element located `By.xpath(//button[contains(text(),'Continue')])` appears
